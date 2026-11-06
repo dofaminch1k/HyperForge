@@ -1,0 +1,151 @@
+const hyperForgeProducts = [
+  {
+    "id": "gamer-9070-xt",
+    "name": "ARLT Gamer RX 9070 XT",
+    "category": "Gaming PCs",
+    "specs": [
+      "Ryzen 7 9800X3D",
+      "Radeon RX 9070 XT",
+      "32 GB DDR5",
+      "2 TB SSD",
+      "Windows 11 Pro"
+    ],
+    "price": 2799,
+    "source": "https://www.arlt.com/PC/ARLT-Gamer-AMD-Ryzen-7-9800X3D-32GB-DDR5-2TB-SSD-AMD-Radeon-9070-XT-W11-Pro.html"
+  },
+  {
+    "id": "gigabyte-rtx-5070",
+    "name": "Gigabyte GeForce RTX 5070 Gaming OC",
+    "category": "Graphics cards",
+    "specs": [
+      "12 GB GDDR7",
+      "3 × DisplayPort 2.1b",
+      "HDMI 2.1b"
+    ],
+    "price": 999.99,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/Grafikkarten/NVIDIA/GeForce-RTX/RTX-5070/GIGABYTE-GeForce-RTX-5070-Gaming-OC-12G-12GB-GDDR7-HDMI-3x-DP.html"
+  },
+  {
+    "id": "ryzen-7-9800x3d",
+    "name": "AMD Ryzen 7 9800X3D",
+    "category": "Processors",
+    "specs": [
+      "8 cores",
+      "4.7 GHz base clock",
+      "Up to 5.2 GHz boost"
+    ],
+    "price": 429.99,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/AMD-Ryzen-7-9800X3D-Boxed.html"
+  },
+  {
+    "id": "prime-b850-plus",
+    "name": "ASUS Prime B850-Plus WiFi",
+    "category": "Motherboards",
+    "specs": [
+      "AMD B850",
+      "Socket AM5",
+      "ATX",
+      "DDR5",
+      "Wi-Fi 6E"
+    ],
+    "price": 219.95,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/Mainboards/ASUS-Prime-B850-Plus-WIFI.html"
+  },
+  {
+    "id": "fury-beast-64",
+    "name": "Kingston FURY Beast 64 GB",
+    "category": "Memory",
+    "specs": [
+      "2 × 32 GB",
+      "DDR5-6000"
+    ],
+    "price": 1529.99,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/Arbeitsspeicher/64GB-Kingston-FURY-Beast-Kit-DDR5-6000-2x-32GB.html"
+  },
+  {
+    "id": "samsung-990-pro",
+    "name": "Samsung 990 PRO 2 TB",
+    "category": "Storage",
+    "specs": [
+      "PCIe 4.0 NVMe",
+      "M.2 SSD",
+      "Up to 7,450 MB/s read"
+    ],
+    "price": 459.99,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/Solid-State-Drive-SSD/2000GB-Samsung-990-Pro-M-2-PCIe-4-0-NVMe-SSD.html"
+  },
+  {
+    "id": "pure-power-13-m",
+    "name": "be quiet! Pure Power 13 M",
+    "category": "Power supplies",
+    "specs": [
+      "750 W",
+      "80 PLUS Gold",
+      "Fully modular",
+      "ATX 3.1"
+    ],
+    "price": 104.9,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/Netzteile/750W-be-quiet-Pure-Power-13-M-vollmodulares-ATX-3-1-Netzteil.html"
+  },
+  {
+    "id": "pure-base-500dx",
+    "name": "be quiet! Pure Base 500DX",
+    "category": "Cases",
+    "specs": [
+      "ATX mid-tower",
+      "Black finish",
+      "Windowed side panel"
+    ],
+    "price": 106.2,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/Gehaeuse/be-quiet-Pure-Base-500DX-Schwarz-mit-Fenster.html"
+  },
+  {
+    "id": "pure-rock-3",
+    "name": "be quiet! Pure Rock 3 Black",
+    "category": "Cooling",
+    "specs": [
+      "120 mm PWM fan",
+      "154 mm tower height",
+      "4-pin PWM"
+    ],
+    "price": 24.9,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/Kuehler-Luefter/CPU-Kuehler/Luft/be-quiet-Pure-Rock-3-Black.html"
+  },
+  {
+    "id": "gamer-rtx-5080",
+    "name": "ARLT Gamer GeForce RTX 5080",
+    "category": "Gaming PCs",
+    "specs": [
+      "Ryzen 7 9800X3D",
+      "GeForce RTX 5080",
+      "32 GB DDR5",
+      "2 TB SSD",
+      "Windows 11 Pro"
+    ],
+    "price": 3599,
+    "source": "https://www.arlt.com/PC/ARLT-Gamer-AMD-Ryzen-7-9800X3D-32GB-DDR5-2TB-SSD-ZOTAC-GAMING-GeForce-RTX5080-W11-Pro.html"
+  },
+  {
+    "id": "ryzen-7-7800x3d",
+    "name": "AMD Ryzen 7 7800X3D",
+    "category": "Processors",
+    "specs": [
+      "4.2 GHz base clock",
+      "Up to 5.0 GHz boost"
+    ],
+    "price": 379.99,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/AMD-Ryzen-7-7800X3D-Boxed.html"
+  },
+  {
+    "id": "kingston-nv3",
+    "name": "Kingston NV3 1 TB",
+    "category": "Storage",
+    "specs": [
+      "M.2 2280",
+      "PCIe 4.0 ×4",
+      "Up to 6,000 MB/s read"
+    ],
+    "price": 152.99,
+    "source": "https://www.arlt.com/Hardware/PC-Komponenten/Solid-State-Drive-SSD/1TB-Kingston-NV3-NVMe-PCIe-4-0-SSD-1TB-M-2-2280-M-Key-PCIe-4-0-x4.html"
+  }
+];
